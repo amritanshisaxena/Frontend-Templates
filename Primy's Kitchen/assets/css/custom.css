@@ -1,0 +1,600 @@
+* {
+    font-family: 'Candara';
+}
+
+.smart-scroll {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-sec {
+    background-color: rgba(240, 128, 128, 0.836);
+}
+
+.bg-pri {
+    background-color: #0aa89e;
+}
+
+.font-col {
+    color: #0aa89e;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+}
+
+.nav-link {
+    color: rgb(17, 16, 16);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #0aa89e;
+}
+
+.btn-info {
+    background-color: #0aa89e;
+    color: white;
+    width: 106px;
+    height: 36px;
+    margin-right: 0px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.startsearch {
+    width: 75%;
+    color: white;
+}
+
+.bg-home {
+    background-image: url('../images/order-food-online.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+}
+
+.discover {
+    border-radius: 0%;
+    width: 50%;
+    font-size: 20px;
+}
+
+.submit {
+    width: 80%;
+    height: 50px;
+    background-color: #0aa89e;
+    font-size: 20px;
+    border-radius: 0%;
+}
+
+.btn-block {
+    width: 320px;
+    height: 60px;
+    background-color: #0aa89e;
+    font-size: 20px;
+}
+
+.sec2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.newlycard:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.newlycard .card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.newlycard .card-img-top {
+    transition: transform 1s;
+    height: 150px;
+}
+
+.newlycard {
+    overflow: hidden;
+    width: 250px;
+    height: 240px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    line-height: 9px;
+    font-weight: 600 !important;
+}
+
+.newlycard .card-body p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.newlycard .card-body a p {
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.livecard {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.livecard .card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.livecard .card-img-top {
+    transition: transform 2s;
+    height: 160px;
+}
+
+.livecard {
+    overflow: hidden;
+    width: 300px;
+    height: 260px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    line-height: 9px;
+    font-weight: 600 !important;
+    margin-top: 0px;
+}
+
+.livecard .card-body p {
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.livecard .card-body a p {
+    color: #0aa89e;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.livecard .card-body p .fa {
+    color: #0aa89e;
+    margin-right: 3px;
+}
+
+.rest-link a:hover {
+    color: #0aa89e !important;
+    text-decoration: none;
+}
+
+.fooditems {
+    border: 1px solid #eee;
+    font-size: 12px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.whybox {
+    position: relative;
+    padding-left: 70px;
+}
+
+.whybox img {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.coverimg {
+    width: 200px;
+    height: 103px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.coverimg img {
+    width: 190px;
+    height: 100px;
+}
+
+.getstarted {
+    background-image: url(../images/add-restaurant-on-foodchow.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding-top: 30px;
+    height: 250px;
+}
+
+.getstart {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 2px white;
+}
+
+.getstart:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px white;
+    border-style: solid;
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 186px;
+    }
+    .discover {
+        width: 127%;
+        padding: 0%;
+        margin-left: -35px;
+    }
+    .card {
+        width: 100%;
+    }
+    .col-xs-6 {
+        width: 180px;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+    }
+    .sec2 {
+        width: 360px;
+    }
+    .xs {
+        width: 180px;
+    }
+    .coverimg {
+        width: 150px;
+    }
+    .coverimg img {
+        width: 150px;
+    }
+    .demodiscoverbtn {
+        width: 100% !important;
+    }
+    .demopill {
+        background-color: transparent;
+        border: 1px #0aa89e;
+        border-style: solid;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        width: 100px;
+        text-align: center;
+        padding: 0;
+    }
+    .placeordersection {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .deliverytypebox .deliverycard {
+        margin: 0px !important;
+    }
+    .cash {
+        margin: 0px !important;
+        padding: 10px !important;
+    }
+    #panel-cart {
+        background-color: #fff;
+        width: 364px;
+        z-index: 9999999999;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.253);
+        font-size: 1rem;
+        transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+        padding-right: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 32.666667%;
+    }
+}
+
+.breadcrumb-item:hover {
+    color: #0aa89e
+}
+
+.demopill {
+    background-color: transparent;
+    border: 1px #0aa89e;
+    border-style: solid;
+    margin-right: 20px;
+    width: 130px;
+    text-align: center;
+}
+
+.in {
+    height: 38px;
+    width: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.in .fa {
+    position: absolute;
+    right: 4px;
+    bottom: 9px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0aa89e;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.sidebar li {
+    color: rgb(22, 22, 22);
+    font-family: 'calibri'!important;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.rating {
+    position: absolute;
+    background-color: #0aa89e;
+    color: white;
+    font-size: 14px;
+    width: 40px;
+    height: 20px;
+    left: 14px;
+    top: 10px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.demodiscoverbtn {
+    border-radius: 30px;
+    width: 20%;
+    height: 40px;
+}
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+.modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.show .modal-dialog {
+    left: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+    color: #212121;
+}
+
+.modal-body ul a {
+    color: #212121;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+.demo {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.btn-demo {
+    margin: 0px;
+    padding: 10px 15px;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 2px #0aa89e;
+    border-style: solid;
+}
+
+.btn-demo:focus {
+    outline: 0;
+}
+
+.demo-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #212121;
+    text-align: center;
+}
+
+.demo-footer>a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+.placeordernav li a {
+    font-family: "Oswald", sans-serif !important;
+    letter-spacing: .5px !important;
+}
+
+#panel-cart {
+    background-color: #fff;
+    width: 354px;
+    z-index: 9999999999;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.096);
+    font-size: 1rem;
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.panel-cart-container {
+    padding-bottom: 0px;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.panel-cart-title {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: #0aa89e;
+}
+
+.cart-title {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.cart-summary {
+    padding: 1rem;
+}
+
+.cart-summary.price {
+    font-family: calibri;
+    font-weight: 500;
+}
+
+.text-lg {
+    font-size: 1.35rem;
+}
+
+.cart-summary.text-muted {
+    color: #56595a !important;
+}
+
+.coupon .btn {
+    padding: 0.7rem 1rem 0.65rem 1rem;
+    border-radius: 3px;
+    border-color: #0aa89e;
+}
+
+.coupon .btn:hover {
+    background-color: #0aa89e;
+    color: #FFFAFA;
+}
+
+.text-lg {
+    font-size: 1.35rem;
+}
+
+.cart-summary.text-muted {
+    color: #56595a !important;
+}
+
+.detailsbox {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.emailbox {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.deliverytypebox .card {
+    border: 1px solid gray !important;
+    border-radius: 5px;
+}
+
+.deliverytypebox .card-header {
+    background-color: lightblue;
+    color: black;
+}
+
+.accordionhead {
+    font-size: 1 rem;
+    font-weight: bolder;
+}
+
+.placeorderbuttons {
+    font-family: oswald, sans-serif;
+    display: inline;
+    width: 128px;
+    font-size: 1rem;
+    color: black;
+    border-width: 2px;
+    margin: 5px;
+}
+
+.cash {
+    border: 4px solid lightgray;
+    border-style: groove;
+    margin: 30px;
+    padding: 20px;
+}
+
+.placeordersection {
+    padding: 40px 0 60px 0;
+    overflow: hidden;
+    margin: 20px 30px 50px 30px;
+}
+
+.deliverytypebox .deliverycard {
+    border: 4px solid lightgray !important;
+    margin: 20px;
+    border-style: ridge !important;
+}
